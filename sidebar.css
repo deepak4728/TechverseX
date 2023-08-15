@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+}
+
+.sBar{
+    background-color: rgba(0,0,0,0.35);
+    height: 75vh; width: 200px; border: 1px solid rgba(45, 43, 43, 0.244);
+    border-top-right-radius: 20px; border-bottom-right-radius: 6px;
+    position: fixed;
+    top: 50px; left: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(100, 100, 120, 1);
+}
+.sBarTop{
+    text-align: center;
+}
+.sBarBottom>a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    line-height: 50px;
+    padding-left:15px;
+    
+}
+.sBarMenuItems{
+    text-decoration: none;
+    font-size: 30px;
+}
